@@ -48,7 +48,7 @@ async fn main() {
         .group(&CHARACTERS_GROUP);
 
     // Login with a bot token from the environment
-    let token = String::from("ODQ2ODYyNTQxMDY1MTU4NjU3.YK1sMw.1SeTv1csLxop1puPhHEq9PlpaCc");
+    let token = String::from("<redacted>");
     let mut client = Client::builder(token)
         .event_handler(Handler)
         .framework(framework)
